@@ -11,7 +11,7 @@ export default defineConfig({
   envPrefix: ['MEDPLUM_', 'GOOGLE_', 'RECAPTCHA_'],
   plugins: [react()],
   server: {
-    port: 8080,
+    port: 8081,
   },
   build: {
     sourcemap: true,

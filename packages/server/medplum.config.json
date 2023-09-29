@@ -1,5 +1,5 @@
 {
-  "port": 8103,
+  "port": 5001,
   "baseUrl": "http://localhost:8103/",
   "issuer": "http://localhost:8103/",
   "audience": "http://localhost:8103/",
@@ -24,16 +24,17 @@
   "botLambdaLayerName": "medplum-bot-layer",
   "allowedOrigins": "*",
   "introspectionEnabled": true,
+  "vmContextBotsEnabled": true,
   "database": {
     "host": "localhost",
-    "port": 5432,
+    "port": 5433,
     "dbname": "medplum",
     "username": "medplum",
     "password": "medplum"
   },
   "redis": {
     "host": "localhost",
-    "port": 6379,
+    "port": 6380,
     "password": "medplum"
   }
 }
