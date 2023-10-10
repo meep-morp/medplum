@@ -22,7 +22,7 @@ describe('Infra', () => {
         accountNumber: '647991932601',
         region: 'us-east-1',
         domainName: 'medplum.com',
-        apiPort: 8103,
+        apiPort: 5001,
         apiDomainName: 'api.medplum.com',
         apiSslCertArn: 'arn:aws:acm:us-east-1:647991932601:certificate/08bf1daf-3a2b-4cbe-91a0-739b4364a1ec',
         appDomainName: 'app.medplum.com',
